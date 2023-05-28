@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --primary-color: #ff3b30;
+  --secondary-color: #fff6ea;
+  --action-color: #3b82f6;
+  --grey-color: #9a9a9a;
+  --black-color: #282828;
+  --white-color: #fff;
+  --lynx-white-color: #f7f7f7;
+  --violet-color: #5348c7;
+  --lynx-gray-color: #c5c5c5;
+  --font: "Open Sans", sans-serif;
+  --xxl-size: 4rem;
+  --xl-size: 2.5rem;
+  --l-size: 2rem;
+  --m-size: 1.5rem;
+  --s-size: 1rem;
+  --xs-size: 0.5rem;
+  --xl-font: 3rem;
+  --light-weight: 300;
+  --regular-weight: 400;
+  --semibold-weight: 600;
+  --bold-weight: 700;
+  --black-weight: 900;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--lynx-white-color);
+  font-family: var(--font);
+  color: var(--black-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}

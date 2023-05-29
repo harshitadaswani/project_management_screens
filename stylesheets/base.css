@@ -23,6 +23,14 @@
     --semibold-weight: 600;
     --bold-weight: 700;
     --black-weight: 900;
+    --p1-primary: #60A5FA;
+    --p1-secondary: #DBEAFE;
+    --p2-primary: #34D399;
+    --p2-secondary: #D1FAE5;
+    --p3-primary: #FBBF24;
+    --p3-secondary: #FEF3C7;
+    --p4-primary: #F87171;
+    --p4-secondary: #FEE2E2;
 }
 
 *,

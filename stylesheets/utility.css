@@ -54,11 +54,11 @@ h6 {
 }
 
 /* for height and width */
-.h-full {
+.h-full{
   min-height: 100vh;
 }
 
-.w-full {
+.w-full{
   width: 100%;
 }
 
@@ -467,6 +467,10 @@ h6 {
 
 .flex-align-center {
   align-items: center;
+}
+
+.flex-content-center{
+  justify-content: center;
 }
 
 .flex-center {

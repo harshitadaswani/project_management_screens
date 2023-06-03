@@ -64,4 +64,48 @@
   width: 50%;
 }
 
+.p1-primary{
+    background-color: var(--p1-primary);
+}
 
+.p1-color{
+    color: var(--p1-primary);
+}
+
+.p1-secondary{
+    background-color: var(--p1-secondary);
+}
+
+.p2-primary{
+    background-color: var(--p2-primary);
+}
+
+.p2-color{
+    color: var(--p2-primary);
+}
+
+.p2-secondary{
+    background-color: var(--p2-secondary);
+}
+.p3-primary{
+    background-color: var(--p3-primary);
+}
+
+.p3-color{
+    color: var(--p3-primary);
+}
+
+.p3-secondary{
+    background-color: var(--p3-secondary);
+}
+.p4-primary{
+    background-color: var(--p4-primary);
+}
+
+.p4-color{
+    color: var(--p4-primary);
+}
+
+.p4-secondary{
+    background-color: var(--p4-secondary);
+}

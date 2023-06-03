@@ -56,14 +56,6 @@
   position: absolute;
 }
 
-.height {
-  height: 31rem;
-}
-
-.width {
-  width: 50%;
-}
-
 .p1-primary{
     background-color: var(--p1-primary);
 }
@@ -108,4 +100,12 @@
 
 .p4-secondary{
     background-color: var(--p4-secondary);
+}
+
+.height {
+  height: 31rem;
+}
+
+.width {
+  width: 50%;
 }

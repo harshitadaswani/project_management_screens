@@ -56,6 +56,14 @@
   position: absolute;
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
 .p1-primary{
     background-color: var(--p1-primary);
 }

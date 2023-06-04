@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    /* min-height: 100vh; */
+    height: max-content;
+    /* grid-gap: 1rem; */
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+      "header header header"
+      "aside1 main main"
+      "aside1 main main"
+      "aside1 main main";
+  }
+  
+  nav {
+    grid-area: header;
+  }
+  
+  .sidebar1 {
+    grid-area: aside1;
+  }
+  
+  .sidebar2 {
+    grid-area: aside2;
+    height: max-content;
+  }
+  
+  main {
+    grid-area: main;
+  }
+  

@@ -48,6 +48,14 @@
   border: 1px solid var(--primary-color);
 }
 
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .relative{
     position: relative;
 }
@@ -100,4 +108,12 @@
 
 .p4-secondary{
     background-color: var(--p4-secondary);
+}
+
+.height {
+  height: 31rem;
+}
+
+.width {
+  width: 50%;
 }

@@ -1,0 +1,83 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../style.css" />
+    <title>Menu | Project Management</title>
+  </head>
+  <body class="flex flex-center">
+    <div class="white-bg m-xxl relative">
+      <div class="flex nowrap flex-center border-bottom p-s">
+        <p class="fw-bold txt-l txt-center">Sort & Filter Tasks</p>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <i class="bi bi-x-lg txt-m"></i>
+      </div>
+      <div class="mt-l p-s">
+        <p class="txt-s fw-black">Sort By</p>
+        <div class="relative mt-xs">
+          <i
+            class="bi bi-caret-down-fill grey-color absolute"
+            style="top: 0.8rem; right: 1rem"
+          ></i>
+          <input
+            type="text"
+            placeholder="Newest First"
+            class="p-s border w-full outline-transparent"
+          />
+        </div>
+      </div>
+      <div class="p-s">
+        <p class="txt-s fw-black">Filter By</p>
+        <div class="relative mt-xs">
+          <i
+            class="bi bi-caret-down-fill grey-color absolute"
+            style="top: 0.8rem; right: 1rem"
+          ></i>
+          <input
+            type="text"
+            placeholder="Labels"
+            class="p-s border w-full outline-transparent"
+          />
+        </div>
+      </div>
+      <div class="p-s">
+        <p class="txt-s fw-black">Select Labels</p>
+        <div class="mt-xs flex flex-column">
+          <label for="label-selection" class="pb-xs">
+            <input
+              type="checkbox"
+              name="label-selection"
+              id="label-selection"
+            />
+            Label 1
+          </label>
+          <label for="label-selection" class="pb-xs">
+            <input
+              type="checkbox"
+              name="label-selection"
+              id="label-selection"
+            />
+            Label 2
+          </label>
+          <label for="label-selection" class="pb-xs">
+            <input
+              type="checkbox"
+              name="label-selection"
+              id="label-selection"
+            />
+            Label 3
+          </label>
+        </div>
+      </div>
+      <div class="mt-xxl mb-m">
+        <button
+          class="primary-bg white-color border-none p-s m-s txt-center width-7 absolute"
+          style="right: 0; bottom: 0"
+        >
+          Done
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

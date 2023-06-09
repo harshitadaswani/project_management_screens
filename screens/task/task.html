@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../style.css" />
+    <title>Task | Project Management</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="white-bg">
+        <div class="p-s pl-xxl txt-m">
+          <span class="primary-color">My</span>Website
+        </div>
+      </nav>
+      <aside class="p-s pt-xl pl-xxl sidebar1 sticky w-full">
+        <div class="flex flex-column flex-space-between sidebar">
+          <div>
+            <div class="pt-s black-color fw-semibold flex flex-align-center">
+              <i class="bi bi-house mr-s txt-m"></i>
+              <span class="fw-bold">Home</span>
+            </div>
+            <div class="pt-s black-color fw-semibold flex flex-align-center">
+              <i class="bi bi-tag mr-s txt-m"></i>
+              <span>Labels</span>
+            </div>
+            <div class="pt-s black-color fw-semibold flex flex-align-center">
+              <i class="bi bi-archive mr-s txt-m"></i>
+              <span>Archive</span>
+            </div>
+            <div class="pt-s black-color fw-semibold flex flex-align-center">
+              <i class="bi bi-trash mr-s txt-m"></i>
+              <span>Trash</span>
+            </div>
+            <button
+              class="mt-m p-xs pr-s pl-s primary-bg white-color border-none outline-transparent w-full width-10"
+            >
+              Create New Note
+            </button>
+          </div>
+          <div class="flex flex-space-between flex-align-center">
+            <div class="flex">
+              <div class="grey-bg br-full width-xl height-xl"></div>
+              <div class="flex flex-column ml-xs">
+                <div class="fw-bold">Tanay Pratap</div>
+                <div class="fw-light primary-color">@tanaypratap</div>
+              </div>
+            </div>
+            <div class="grey-color fw-bold">
+              <i class="bi bi-box-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main class="mt-xl h-full w-full flex flex-align-center flex-column">
+        <div class="relative" style="width: 50%">
+          <i class="bi bi-search absolute" style="top: 0.8rem; left: 1rem"></i>
+          <i
+            class="bi bi-sliders2 absolute"
+            style="top: 0.8rem; right: 1rem"
+          ></i>
+          <input
+            type="text"
+            placeholder="Search Posts, People, anything"
+            class="p-s border br-s w-full pl-xl outline-transparent"
+          />
+        </div>
+        <div class="flex width-70 pl-xxl pt-l flex-column">
+          <div class="flex flex-space-between">
+            <h3>Task Title</h3>
+            <div class="mr-xl grey-color">
+              <i class="bi bi-archive pr-s"></i>
+              <i class="bi bi-pencil pr-s"></i>
+              <i class="bi bi-trash pr-s"></i>
+            </div>
+          </div>
+          <h4 class="mt-s">Title</h4>
+          <div class="relative width-90">
+            <input
+              type="text"
+              placeholder="Task Title"
+              class="p-s border w-full outline-transparent"
+            />
+          </div>
+          <h4 class="mt-s">Description</h4>
+          <div class="relative width-90">
+            <textarea
+              placeholder="Description about the task with rich text"
+              class="p-s border w-full outline-transparent"
+              rows="6"
+            ></textarea>
+          </div>
+          <h4 class="mt-s">Created on</h4>
+          <div class="relative width-90">
+            <input
+              type="date"
+              placeholder="creation date"
+              class="p-s border w-full outline-transparent"
+            />
+          </div>
+          <h4 class="mt-s">Priority</h4>
+          <div class="relative width-90">
+            <select
+              type="text"
+              placeholder="Priority dropdown"
+              class="p-s border w-full outline-transparent"
+            >
+              <option value="low">Low</option>
+              <option value="medium">Medium</option>
+              <option value="high">High</option>
+            </select>
+          </div>
+          <h4 class="mt-s">Status</h4>
+          <div class="relative width-90">
+            <select
+              type="text"
+              placeholder="Status dropdown"
+              class="p-s border w-full outline-transparent"
+            >
+              <option value="active">Active</option>
+              <option value="inactive">Inactive</option>
+            </select>
+          </div>
+          <h4 class="mt-s">Labels</h4>
+          <div class="relative width-90 pt-s flex flex-column">
+            <label for="label-1" class="pb-xs">
+              <input type="checkbox" name="label-1" id="label-1" class="pr-s" />
+              &nbsp;Label 1
+            </label>
+            <label for="label-2">
+              <input
+                type="checkbox"
+                name="label-2"
+                id="label-2"
+                class="pr-s"
+                checked
+              />
+              &nbsp;Label 2
+            </label>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

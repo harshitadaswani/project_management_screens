@@ -486,6 +486,10 @@ h6 {
   justify-content: space-evenly;
 }
 
+.flex-end {
+  justify-content: flex-end;
+}
+
 /* responsive image */
 .img-responsive {
   width: 100%;
